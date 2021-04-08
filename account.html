@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="title">Create An Account</title>
+  </head>
+
+  <header class="account">
+    <div class="account-column">
+      <h1 class="account-title">Create An Account</h1>
+    </div>
+  </header>
+
+  <body class="acoount-list">
+    <div class="account-list__column">
+      <span class="account-list__quest">First name</span>
+      <form>
+        <input required placeholder="First name" type="text" />
+    </div>
+    <div class="account-list__column">
+      <span class="account-list__quest">Last name</span>
+        <input required placeholder="Last name" type="text" />
+    </div>
+    <div class="account-list__column">
+      <span class="account-list__quest">Email</span>
+        <input required placeholder="Email" type="email" />
+    </div>
+    <div class="account-list__column">
+      <span class="account-list__quest">Username</span>
+        <input required placeholder="Username" type="text" />
+    </div>
+    <div class="account-list__column">
+      <span class="account-list__quest">Password</span>
+        <input required placeholder="Password" minlength="10" type="password" />
+    </div>
+    <div class="account-list__column">
+      <span class="account-list__quest">Birth date</span>
+        <input required type="date" />
+    </div>
+    <div class="account-list__column">
+      <span class="account-list__quest happy">How happy are you?</span>
+        <input required type="range" list="tickmarks" min="0" max="10" />
+        <datalist id="tickmarks">
+          <option value="0"></option>
+          <option value="1"></option>
+          <option value="2"></option>
+          <option value="3"></option>
+          <option value="4"></option>
+          <option value="5"></option>
+          <option value="6"></option>
+          <option value="7"></option>
+          <option value="8"></option>
+          <option value="9"></option>
+          <option value="10"></option>
+        </datalist>
+    </div>
+    <div class="account-list__column">
+      <span class="account-list__quest">What is your fav.color?</span>
+        <input required type="color" />
+    </div>
+    <div class="account-list__column">
+        <input type="submit" value="Creat Account" />
+      </form>
+    </div>
+  </body>
+</html>

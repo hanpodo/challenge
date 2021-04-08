@@ -1,0 +1,12 @@
+.account-list__column {
+  display: flex;
+}
+
+.happy {
+  margin: 10px 0;
+}
+
+.account-list__quest {
+  font-weight: 600;
+  margin-right: 10px;
+}
