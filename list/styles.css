@@ -1,0 +1,138 @@
+body {
+  width: 400px;
+  height: 100vh;
+  border: 5px solid cadetblue;
+}
+
+.screen-header {
+  margin: 20px 30px;
+}
+
+.screen-header__title {
+  font-weight: 600;
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+.img-love {
+  width: 100px;
+  height: 100px;
+  border: 3px solid black;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.playlist-text__h4 {
+  font-size: 30px;
+  margin: -5px 0;
+  margin-top: 5px;
+}
+
+.playlist-text__h6 {
+  font-size: 18px;
+  margin: 3px;
+}
+
+.playlist-column {
+  display: flex;
+}
+
+.playlist-img {
+  display: flex;
+  margin-left: 30px;
+}
+
+.play {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.play-btn {
+  margin-right: 30px;
+}
+
+.play-btn__play {
+  width: 150px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-btn__heart {
+  width: 50px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-btn__plus {
+  width: 50px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  list-style: none;
+}
+
+.list-column {
+  display: flex;
+}
+
+.list-box__tomato {
+  width: 50px;
+  height: 50px;
+  background-color: tomato;
+  border: 3px solid black;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.list-text__h4 {
+  font-size: 22px;
+  margin-top: 0;
+}
+
+.list-text__h6 {
+  font-size: 12px;
+  margin-top: -25px;
+  color: gray;
+}
+
+.list-box__pink {
+  width: 50px;
+  height: 50px;
+  background-color: pink;
+  border: 3px solid black;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.list-box__blue {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  border: 3px solid black;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.list-box__green {
+  width: 50px;
+  height: 50px;
+  background-color: teal;
+  border: 3px solid black;
+  border-radius: 15px;
+  margin-right: 20px;
+}
