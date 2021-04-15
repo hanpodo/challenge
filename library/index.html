@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>playlist</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="library-header">
+        <i class="fas fa-bars fa-2x"></i>
+        <span class="library-header__title">library</span>
+        <i class="fas fa-shopping-bag fa-2x"></i>
+      </div>
+      <form class="library-search">
+        <input
+          class="library-search__input"
+          type="text"
+          placeholder="Search books..."
+        />
+        <i class="fas fa-search"></i>
+      </form>
+    </header>
+    <main>
+      <h3 class="library-book__title">Book of the day</h3>
+      <ul>
+        <li class="library-book__day">
+          <div class="library-book__book"></div>
+          <div>
+            <h4 class="library-book__h4">No Fixed Abode</h4>
+            <h6 class="library-book__h6">Journey Through</h6>
+            <i id="star" class="fas fa-star fa-sm"></i>
+            <i class="fas fa-star fa-sm"></i>
+            <i class="fas fa-star fa-sm"></i>
+            <i class="fas fa-star fa-sm"></i>
+            <i class="far fa-star fa-sm"></i>
+            <div>
+              <button class="library-button">Journey</button>
+              <button class="library-button">Biography</button>
+            </div>
+            <div>
+              <button class="library-bookmark">
+                <i class="fas fa-bookmark"></i>
+              </button>
+              <button class="library-booknow">Book Now</button>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <h3 class="library-book__title">Top Adventures</h3>
+      <ul>
+        <li class="library-book__day">
+          <div class="library-adventures"></div>
+          <div class="library-adventures"></div>
+          <div class="library-adventures"></div>
+          <div class="library-adventures"></div>
+        </li>
+        <div>
+          <i class="fas fa-star fa-xs"></i>
+          <i class="fas fa-star fa-xs"></i>
+          <i class="fas fa-star fa-xs"></i>
+          <i class="fas fa-star fa-xs"></i>
+          <i class="far fa-star fa-xs"></i>
+        </div>
+      </ul>
+      <h3 class="library-book__title">Popular authors</h3>
+      <ul>
+        <li class="library-book__day">
+          <div class="library-popular"></div>
+          <div>
+            <h4 class="library-book__h4">George RayMond</h4>
+            <h4 class="library-book__h4">Richard Martin</h4>
+            <h6 class="library-book__h6">Modern American science</h6>
+            <h6 class="library-book__h6">fiction writer, screenwriter,</h6>
+            <h6 class="library-book__h6">producer andeditor, winner</h6>
+            <h6 class="library-book__h6">of many literary awards</h6>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

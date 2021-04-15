@@ -1,0 +1,139 @@
+body {
+  width: 400px;
+  height: 800px;
+}
+
+.library-header {
+  width: 400px;
+  height: 100px;
+  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.library-header i {
+  margin: 0 20px;
+}
+
+.library-header__title {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.library-search {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.library-search__input {
+  position: relative;
+  padding-left: 15px;
+  top: -25px;
+  width: 350px;
+  line-height: 50px;
+  border: none;
+  border-radius: 40px;
+}
+
+.library-search i {
+  position: relative;
+  top: -5px;
+  right: 40px;
+  color: gray;
+}
+
+.library-book__title {
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+.library-book__day {
+  display: flex;
+  justify-content: left;
+}
+
+.library-book__day i {
+  margin-top: 15px;
+}
+
+#star {
+  margin-left: 10px;
+}
+
+.library-book__book {
+  width: 90px;
+  height: 150px;
+  background-color: tomato;
+  border-radius: 10px;
+}
+
+.library-book__h4 {
+  margin: 0 10px;
+}
+
+.library-book__h6 {
+  margin: 0 10px;
+  color: gray;
+  opacity: 0.3;
+  font-size: 12px;
+}
+
+.library-button {
+  border: none;
+  border-radius: 5px;
+  width: 80px;
+  height: 25px;
+  margin-top: 10px;
+}
+
+.library-button:first-child {
+  margin-left: 10px;
+}
+
+.library-bookmark {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: orange;
+}
+
+.library-bookmark i {
+  position: relative;
+  top: -5px;
+}
+
+.library-booknow {
+  width: 110px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  margin-left: 30px;
+  position: relative;
+  top: -5px;
+}
+
+.library-adventures {
+  width: 90px;
+  height: 120px;
+  background-color: blue;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.library-book__day:first-child {
+  margin-left: -20px;
+}
+
+.library-popular {
+  width: 100px;
+  height: 140px;
+  background-color: green;
+  border-radius: 10px;
+}
