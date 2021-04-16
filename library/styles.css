@@ -137,3 +137,10 @@ body {
   background-color: green;
   border-radius: 10px;
 }
+
+.stars {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -30px;
+  margin-right: 10px;
+}
