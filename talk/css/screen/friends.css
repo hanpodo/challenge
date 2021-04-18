@@ -1,0 +1,66 @@
+body {
+  background-color: green;
+}
+
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+}
+
+.screen-header__column span {
+  margin: 0 5px;
+}
+
+.user-column {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.user-bigimg {
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+  margin: 10px;
+}
+
+.user-smimg {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.user-name {
+  margin: 0 10px;
+  font-size: 28px;
+}
+
+.friends-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.friends-search input {
+  width: 85%;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: white
+  outline: none;
+}
+
+.friends-search i {
+  position: relative;
+  right: 20px;
+  opacity: 0.6;
+}
+
+.user-smname {
+  margin: 0 10px;
+  font-size: 22px;
+}

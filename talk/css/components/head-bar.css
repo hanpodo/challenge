@@ -1,0 +1,26 @@
+.head-bar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+}
+
+.head-bar__column {
+  width: 50%;
+}
+
+.head-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.head-bar__column:last-child i {
+  margin: 0 2px;
+}
+
+.head-bar__column:last-child span:last-child {
+  margin-right: 15px;
+}

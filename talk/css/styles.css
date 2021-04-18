@@ -1,0 +1,8 @@
+@import "css/reset.css";
+
+/* screen.css */
+@import "screen/index.css";
+@import "screen/friends.css";
+
+/* components.css */
+@import "components/head-bar.css";
